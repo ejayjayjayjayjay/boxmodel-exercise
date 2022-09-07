@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-size: 20px;
         }
 
-        .box1{
+        .box1 {
             background-color: blue;
             font-size: 20px;
             height: 100px;
@@ -24,7 +26,7 @@
             /* box-sizing: border-box; */
         }
 
-        .box2{
+        .box2 {
             background-color: red;
             padding: 20px;
             border: 20px;
@@ -33,10 +35,31 @@
             border: 20px solid green;
             margin: 80px 20px 20px 20px;
         }
+
+        img {
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            text-align: center;
+            left: 25%;
+            top: 150%;
+            transform: translate(-50%,-50%);
+        }
+
+        .container {
+            position: relative;
+            
+        }
     </style>
 </head>
+
 <body>
-    <div class="box1">1st box element content</div>
-    <div class="box2">2nd box element content</div>
+    <div class="container">
+        <div class="box1">1st box element content</div>
+        <div class="box2">2nd box element content</div>
+        <img src="https://github.com/WD16-KodeGo-Batch/image-sources/blob/main/box-model3.png?raw=true
+    " alt="boxmodelexercise">
+    </div>
 </body>
+
 </html>
